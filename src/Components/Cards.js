@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import React from 'react';
+import './Cards.css';
 
 const Cards = () => {
     return ( 
-        <div>
+        <div className='cards'>
             
         </div>
      );
