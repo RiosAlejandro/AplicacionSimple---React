@@ -1,11 +1,14 @@
 import React from 'react';
 import './Cards.css';
 
-const Cards = () => {
+const Cards = (props) => {
+
     return ( 
         <div className='cards'>
-            <h1>va un props</h1>
-            <article></article>
+            <h1>{props.titulo}</h1>
+            <article>
+                <img src={props.imagen} />
+            </article>
         </div>
      );
 }
