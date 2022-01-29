@@ -10,7 +10,7 @@ const Main = () => {
         <main>
             <Cards titulo="Gifs" imagen={gif} />
             <Cards titulo="Videos" imagen={video} />
-            <Cards titulo="Imagenes" imagen={imagen} />
+            <Cards titulo="Imagenes" imagen={imagen} link="./imagenes"/>
         </main>
      );
 }
